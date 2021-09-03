@@ -10,9 +10,9 @@ public class Main {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.println("Hello World!!!");
-		System.out.print("이름 입력 : ");
+		System.out.print("Enter your name : ");
 		name = s.next();
-		System.out.println("[" + name + "]님 환영합니다~!");
+		System.out.println("Welcome, " + name + "~!");
 	}
 
 }
